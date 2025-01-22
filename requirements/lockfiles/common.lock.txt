@@ -18,7 +18,7 @@ requests==2.32.3
     # via starlette
 sqlparse==0.5.3
     # via django
-starlette==0.1.0
+starlette==0.40.0
     # via -r requirements/common.in
 typing-extensions==4.12.2
     # via asgiref
