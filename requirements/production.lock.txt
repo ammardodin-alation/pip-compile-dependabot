@@ -18,6 +18,10 @@ fastapi==0.109.1
     # via -r common.in
 idna==3.10
     # via anyio
+jinja2==3.0.0
+    # via -r common.in
+markupsafe==3.0.2
+    # via jinja2
 pydantic==2.10.5
     # via fastapi
 pydantic-core==2.27.2
