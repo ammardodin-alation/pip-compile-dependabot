@@ -34,6 +34,8 @@ markupsafe==3.0.2
     # via
     #   jinja2
     #   werkzeug
+numpy==1.24.0
+    # via -r common.in
 pydantic==2.10.5
     # via fastapi
 pydantic-core==2.27.2
