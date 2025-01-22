@@ -4,11 +4,25 @@
 #
 #    pip-compile --output-file=common.lock.txt common.in
 #
+aiofiles==24.1.0
+    # via starlette
 asgiref==3.8.1
     # via django
+certifi==2024.12.14
+    # via requests
+charset-normalizer==3.4.1
+    # via requests
 django==4.2.1
     # via -r common.in
+idna==3.10
+    # via requests
+requests==2.32.3
+    # via starlette
 sqlparse==0.5.3
     # via django
+starlette==0.1.8
+    # via -r common.in
 typing-extensions==4.12.2
     # via asgiref
+urllib3==2.3.0
+    # via requests
