@@ -10,6 +10,6 @@ updates:
   - package-ecosystem: "pip"
     directory: "egg"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     pull-request-branch-name:
       separator: _
