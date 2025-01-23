@@ -7,3 +7,9 @@ updates:
     open-pull-requests-limit: 0
     pull-request-branch-name:
       separator: _
+  - package-ecosystem: "pip"
+    directory: "egg"
+    schedule:
+    interval: "hourly"
+    pull-request-branch-name:
+      separator: _
