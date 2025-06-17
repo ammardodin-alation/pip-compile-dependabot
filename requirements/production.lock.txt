@@ -60,7 +60,7 @@ numpy==1.24.0
     # via -r common.in
 oauthlib==3.2.2
     # via requests-oauthlib
-protobuf==4.25.5
+protobuf==4.25.8
     # via grpcio-tools
 pyasn1==0.6.1
     # via
