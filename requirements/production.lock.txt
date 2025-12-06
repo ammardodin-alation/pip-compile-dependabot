@@ -103,7 +103,7 @@ typing-extensions==4.12.2
     #   fastapi
     #   pydantic
     #   starlette
-urllib3==2.3.0
+urllib3==2.6.0
     # via
     #   kubernetes
     #   requests
